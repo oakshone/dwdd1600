@@ -1,0 +1,269 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/* Header Tings Here*/
+header {
+    background-color: whitesmoke;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #AD3067;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin: 0;
+    color: #48a9E0;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+/* nav tings goes here */
+nav{
+    background-color: #70986A;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 3vw;
+    margin: 0;
+    letter-spacing: normal;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.3rem;
+    text-decoration: inherit;
+    color: #024873;
+    font-weight: 600;
+    display: block;
+    padding: .80rem 1rem;
+}
+
+nav li.active a {
+    background-color: whitesmoke;
+    color: #AD3067;
+}
+
+nav a:hover {
+    color: #9b2fe0;
+}
+
+
+/* tings for the main tag */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #b40412;
+}
+
+main h2 {
+    color: #AD3067;
+    margin-bottom: .2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+main h3 {
+    color: #AD3067;
+    padding-bottom: .1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}
+main ol {
+    font-style: normal;
+    background-color: whitesmoke;
+    padding: 1rem 1.5rem;
+    border-width: thin;
+    border: 3px solid white;
+    border-radius: .5rem;
+    border-color: #ad3067;
+    border-spacing: 1px 50px;
+}
+main p {
+    color: #2f3133;
+    margin:0 0 .1rem;
+    font-weight: 400;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+main dl dt {
+    color: #b40412;
+    font-weight: 600;
+    font-style: normal;
+}
+
+main dl dd {
+    color: #024873;
+    font-size: .95rem;
+    padding: .3rem;
+}
+main address {
+    font-style: normal;
+    background-color: whitesmoke;
+    padding: .1rem;
+    width: 1;
+    border: 1px solid black;
+    border-radius: .5rem;
+    border-color: #ad3067;
+}
+
+main a {
+    color: #024873;
+}
+main a:hover {
+    color:rgb(160,32,240)
+}
+
+
+/* footer tings here */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #ad3067;
+    padding: 1rem;
+    font-size: .8rem;
+    clear: both;
+}
+footer a {
+    color: #024873;
+}
+
+/* photo tings here */
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 3%;
+    flex-wrap: flex;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+    padding: .5rem 0;
+    border: 1px solid black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+   
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #ad3067;
+    padding: .2rem .2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #70986A;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #ad3067;
+    padding: .2rem .2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #70986A;
+}
+div.gallery img {
+     width: 100%;
+    height: auto;
+    padding: .5rem 0;
+    border: 1px solid black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+    
+    
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .95rem;
+    color: #b64e11;
+}
+.myForm fieldset {
+    border: 1px solid #b64e11;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    padding: 5px;
+    
+}
+.myForm legend {
+    font-size: 1.5rem;
+    font-weight: 300;
+   
+}
+.myForm [type=text],.myForm [type=tel],.myForm [type=email], .myForm select, .myForm textarea, .myForm [type=label] {
+    border: solid 2px #70986A;
+    padding: .2rem;
+    width: 200px;
+    border-radius: .4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: whitesmoke;
+}
+.myForm textarea {
+    height: 6rem;
+    width: 10rem;
+}
+.myForm [type=submit] {
+    background-color: #48a9E0;
+    padding: 1rem 2rem;
+    border-color: #b64e11;
+    border-radius: 10px;
+    color: #b64e11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* check box color */
+
+#cb1 {
+  accent-color: #008000;
+}
+
+#cb2 {
+  accent-color: #0000ff;
+}
+
+#cb3 {
+  accent-color: black;
+}
