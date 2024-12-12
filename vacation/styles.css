@@ -1,0 +1,267 @@
+header {
+    background-color: ghostwhite;
+    padding: 1rem 1vw;
+    display: flex;
+    align-items: center;
+}
+header div {
+    padding-left: 1vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #973e2b;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin: 0;
+    padding: inherit;
+    color: #E9967A;
+    letter-spacing: 3px;
+    font-weight: 600;
+   
+}
+
+/* main tag stuff */
+main {
+    padding: 1rem 2vw;
+    margin: 0;
+}
+
+main h1 {
+    color: #973E2B;
+}
+
+main h2 {
+    color: #973E2B;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+main ol {
+    font-style: normal;
+    padding: 1rem 1.5rem;
+    border-width: thin;
+    border: 2px solid white;
+    border-radius: .3rem;
+    border-color: #E9967A;
+    border-spacing: 1px;
+    list-style-type: disc;
+}
+/* footer tings here */
+footer {
+    background-color: #E9967A;
+    text-align: center;
+    color: #973E2B;
+    padding: .5rem;
+    font-size: .9rem;
+    clear: both;
+}
+footer a {
+    color: #F08080;
+}
+
+/* link stuff */
+
+a {
+    color: #973E2B;
+    
+}
+a:hover {
+   color: #F08080;
+}
+
+    /* lil screen */
+    @media only screen and (max-width: 600px) {
+        nav ul {
+            margin: 0;
+            padding: 0 2vw;
+            list-style-type: none;
+        }
+        nav a {
+            display: block;
+            padding: .8rem;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: solid 2px #900C3F;
+            color: #F08080;
+            border: 2px solid #900C3F;
+            border-radius: 5px;
+            margin-bottom: .5rem;
+            padding: 10px;
+            }
+        nav .active a {
+            background-color: #900C3F;
+            background-image: linear-gradient(to bottom, #973e2b, #E9967A);
+            color: #F08080;
+        }
+        } /* end of media query */
+
+    /* big body screens */
+        @media only screen and (min-width: 601px) {
+            nav{
+            background-color: #FFA07A;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0 3vw;
+            margin: 0;
+            letter-spacing: normal;
+            display: flex;
+        }
+
+        nav a {
+            font-size: 1.3rem;
+            text-decoration: inherit;
+            color: #900C3F;
+            font-weight: 600;
+            display: block;
+            padding: .80rem 1rem;
+        }
+
+        nav li.active a {
+            background-color: whitesmoke;
+            color: #F08080;
+        }
+
+        nav a:hover {
+            color: #900C3F;
+        }
+
+        } /* end of query */
+
+} /* photos and such */
+
+figure.wrapped {
+width: 100%;
+margin: 0 0 0 3%;
+float: right;
+    
+}
+
+figure.wrapped img {
+    width: 50%;
+    height: auto;
+    padding: .5rem 1;
+    border: 1px solid #F08080;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0px 0px 10px #F08080;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: 8rem;
+    
+}
+/* end of photo stuff */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: black;
+    padding: .2rem .2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #E9967A;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+    padding: .5rem 1;
+    border: 1px solid #F08080;
+    box-shadow: 1px 0px 7px #F08080;
+}
+div.gallery figure {
+    margin: .5rem 1% 0 0;
+       
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .95rem;
+    color: #900C3F;
+}  
+div.wrapped {
+    width: 100%;
+    padding: .5rem 1;
+    border: 2px solid #F08080;
+    box-shadow: 0px 0px 5px #F08080; 
+}
+div {
+    float: right;
+    padding: 5px;
+    margin: 0;
+}
+div.img {
+    border: 2px solid #900C3F; 
+    background-color: #E9967A;
+    padding: .2rem 1;
+}
+img {
+    float: right;
+}
+
+    
+    
+    
+/* figures */
+    
+    .myForm fieldset {
+    border: 2px solid #900C3F;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    padding: 5px;
+    
+}
+.myForm legend, label {
+    color: #900C3F;
+    font-weight: 600;
+}
+.myForm [type=submit] {
+    background-color: #F08080;
+    padding: 1rem 2rem;
+    border-color: black;
+    border-radius: 10px;
+    color: #900C3F;
+    
+}
+.myForm legend {
+    font-size: 1.2rem;
+    font-weight: 400;
+   
+}
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm textarea {
+    border-color: #900C3F;
+    height: 6rem;
+    width: inherit;
+    color: #900C3F
+}
+.myForm [type=text], .myForm [type=tel],.myForm [type=email], .myForm select, .myForm textarea, .myForm [type=label], .myForm submit {
+    border: solid 2px #F08080;
+    padding: 4px;
+    width: 150px;
+    border-radius: .3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: ghostwhite;
+}
+.myForm submit, .myForm select, .myForm [type=radio], .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea, .myForm [type=label] { 
+    display: block;
+    
+}
+/* figure end */
